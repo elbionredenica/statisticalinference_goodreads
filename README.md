@@ -307,83 +307,51 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 
 <p>
 
+<img src="https://i.imgur.com/8JOH9yG.png" width="" alt="alt_text" title="image_tooltip">
 
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+</p>
+<p>
 
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934737-b03349ef-92c2-4cc8-a2b7-f6cbab53104b.png)" width="" alt="alt_text" title="image_tooltip">
 
-<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+</p>
+<p>
+
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934762-e4de60a9-bb14-41d1-b53d-1a3affaebe7a.png)" width="" alt="alt_text" title="image_tooltip">
+
+</p>
+<p>
+
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934779-3f39ee2a-1e73-4be3-ae20-6df76e4dc50b.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/image4.png" width="" alt="alt_text" title="image_tooltip">
-
-</p>
-<p>
-
-
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image5.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934800-47774333-3b83-4219-b5b7-c89c679fcfdd.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image6.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934810-e95a0776-858f-4b37-89db-7f27d9ae4a10.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image7.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934824-9da3bccf-7d07-42a7-ba15-b96acde23b14.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image8.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934840-fb150102-199e-4424-af9e-fd3b0dbdbca1.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image9.png" width="" alt="alt_text" title="image_tooltip">
-
-</p>
-<p>
-
-
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image10.png" width="" alt="alt_text" title="image_tooltip">
-
-</p>
-<p>
-
-
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image11.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934852-6e3af691-7ef7-4889-89e6-820f847561ee.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <h4>Appendix B: Examining the Subgroups</h4>
@@ -392,43 +360,29 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <p>
 
 
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image12.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934862-d7e964dd-92b0-42ff-8d32-6db08017e5e7.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
-<p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-<img src="images/image13.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934874-4c437282-c1dc-4b92-9b1e-9ed15e9a55a9.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
-<p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image14.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934894-4e7437db-0039-42a4-a161-be5f838c96fb.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image15.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934915-95a34c9a-049f-43f0-9fc2-6d8aad5f1082.png)" width="" alt="alt_text" title="image_tooltip">
 
 
-<p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-<img src="images/image16.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934930-29790538-4972-4bd7-8d79-8b31c3eefeb2.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <h4>Appendix C: Difference of Means Test</h4>
@@ -437,19 +391,14 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <p>
 
 
-<p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-<img src="images/image17.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934940-ac5f5ab0-3ed6-4040-bb05-33ee1541d881.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
-<p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image18.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934948-db070922-dcce-4c69-a0f4-25a886bd2072.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <h4>Appendix D: Confidence Interval</h4>
@@ -458,19 +407,12 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <p>
 
 
-<p id="gdcalert48" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert49">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image19.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934962-7d2d430a-3b05-4093-9a24-214f6a3c6edc.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-
-<p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image20.png" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206934978-f3a1d734-b0ac-4764-939b-739cca8423e9.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 
