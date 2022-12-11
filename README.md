@@ -129,8 +129,7 @@ $$1.02$$
 </table>
 
 
-<p>
-```python 
+```
 
 # using numpy's np.array() to create an array and plot it in a histogram
 # # average ratings for books >= 350
@@ -142,6 +141,7 @@ plt.ylabel("Frequency")
 plt.xticks(bins[::1]) 
 plt.xticks(rotation = 45)
 plt.show()   
+   
 ```
 
 <center><img src="https://i.imgur.com/lPy3pE0.png" width="" alt="alt_text" title="image_tooltip"></center>
