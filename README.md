@@ -146,6 +146,19 @@ plt.show()
 
 <center><img src="https://i.imgur.com/lPy3pE0.png" width="" alt="alt_text" title="image_tooltip"></center>
 
+```
+# # average ratings for with book < 350 pages 
+# # dataUnderThreshold.average_rating, dataUnderThreshold.num_pages
+averageRatingsUnderThreshold = np.array(dataUnderThreshold.average_rating)
+plt.hist(averageRatingsUnderThreshold, bins, facecolor='r', alpha=0.7, edgecolor='k', linewidth=0)
+plt.xlabel("Average Rating")
+plt.ylabel("Frequency")
+plt.xticks(bins[::1]) 
+plt.xticks(rotation = 45)
+plt.show()
+
+```                                       
+   
 </p>
 <p>
 <strong>Figure 1.</strong> Histogram for long books (book length ≥ 350 pages)
@@ -153,7 +166,7 @@ plt.show()
 <p>
 
 
-<img src="[img/figure.png](https://i.imgur.com/BWvS4AM.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/BWvS4AM.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
