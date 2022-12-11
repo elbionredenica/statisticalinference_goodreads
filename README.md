@@ -73,10 +73,7 @@ The dataset was read in Python using the pandas package for analysis. Before pro
 $$n_{1}=120$$
    </td>
    <td>
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
+$$n_{1}=80$$
    </td>
   </tr>
   <tr>
