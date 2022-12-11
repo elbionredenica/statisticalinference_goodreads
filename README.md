@@ -3,7 +3,7 @@
 <!-----
 NEW: Check the "Suppress top comment" option to remove this info from the output.
 
-Conversion time: 3.104 seconds.
+Conversion time: 3.079 seconds.
 
 
 Using this HTML file:
@@ -16,7 +16,7 @@ Using this HTML file:
 Conversion notes:
 
 * HTML and Markdown from Docs version 1.0
-* Sun Dec 11 2022 21:40:02 GMT-0000 (UTC)
+* Sun Dec 11 2022 22:03:22 GMT-0000 (UTC)
 * Source doc: cs50_statisticalinference_assignment
 
 WARNING:
@@ -27,10 +27,9 @@ You have some equations: look for ">>>>>  gd2md-html alert:  equation..." in out
 
 * Footnote support in HTML is alpha: please check your footnotes.
 ----->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 50.</p>
+
+<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 49.</p>
 <ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
 <p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
@@ -82,12 +81,11 @@ You have some equations: look for ">>>>>  gd2md-html alert:  equation..." in out
 <a href="#gdcalert47">alert47</a>
 <a href="#gdcalert48">alert48</a>
 <a href="#gdcalert49">alert49</a>
-<a href="#gdcalert50">alert50</a>
 
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
-<h1>INFERENTIAL STATISTICS REPORT REGARDING GOODREADS USERS</h1>
+<h2>INFERENTIAL STATISTICS REPORT REGARDING GOODREADS USERS</h2>
 
 
 <p>Elbion Redenica
@@ -95,7 +93,7 @@ You have some equations: look for ">>>>>  gd2md-html alert:  equation..." in out
 <p>
 Minerva University, San Francisco, CA, USA
 </p>
-<h2>INTRODUCTION</h2>
+<h3>INTRODUCTION</h3>
 
 
 <p>
@@ -104,43 +102,32 @@ Reading is important and has countless benefits. If used effectively, reading al
 <p>
 An analysis was conducted in CS50: Formal Analysis's "Assignment 2: Describing Data," and this statistics report is a continuation of it. While descriptive statistics and data visualization from the previous analysis suggest that long books have a higher average rating, this paper will expand the analysis on probability, distributions, confidence intervals, and significance. The population inferences are made about Goodreads’ book titles.
 </p>
-<h2>DATASET</h2>
+<h3>DATASET</h3>
 
 
 <p>
 Kaggle, a website that offers a range of tools and resources for data scientists and serves as a public data platform, offers a <a href="https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks">dataset</a> of over 10,000 titles from Goodreads. This paper works with a sample of 200 titles from that dataset, the same used for the previous assignment, which can be found <a href="https://drive.google.com/drive/folders/1_gBg5oGivKhjNFgrbIoHogKeQHVtPdFs">here</a>. Since this paper focuses on whether long books are associated with low average ratings, two variables are most relevant for the analysis. Book length ("num_pages") is used as the independent variable and is a quantitative discrete variable whose input is whole, concrete numbers for the book pages (e.g., there cannot be 346.2 pages in a book). The dependent variable is the average rating in Goodreads (<code>"average_rating"</code>). This variable is measured by taking the values of all ratings and dividing them by the number of them to find the average rating for each book. We will treat "average_rating" as a quantitative discrete variable because it has a limited scope of valid values (0.00-5.00 with two decimals). If we were to count all these values, we would spend a finite amount of time doing so since we have specific values a user can type in as a set of rational numbers. A good analogy with book ratings is GPA, where the latter is also considered a discrete variable.<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> 
 </p>
-<h2>ANALYSIS</h2>
+<h3>ANALYSIS</h3>
 
 
-<h3>Hypotheses</h3>
+<h4>Hypotheses</h4>
 
 
 <p>
-A difference of means significance test is performed to address the research question of whether the average book rating is different for long books. Book length ("num_pages") as a variable is divided into two subgroups, "shortBooks" (number of pages &lt; 350) and "longBooks" (number of pages ≥ 350). The significance level is set to default, α = 0.05. The hypotheses are defined as follows:
+A difference of means significance test is performed to address the research question of whether the average book rating is different for long books. Book length ("num_pages") as a variable is divided into two subgroups, "shortBooks" (number of pages < 350) and "longBooks" (number of pages ≥ 350). The significance level is set to default, α = 0.05. The hypotheses are defined as follows:
 </p>
 <ul>
 
 <li>
 
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-
-H_{0}:\mu _{longBooks ratings}=\mu _{shortBooks ratings}
-
-
-<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
 
 
 <li>
 
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-
-<li>
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
  
 </li>
@@ -148,7 +135,7 @@ H_{0}:\mu _{longBooks ratings}=\mu _{shortBooks ratings}
 <p>
 This is a one-tailed test because I am looking for a difference in the negative direction as I claim the average rating is lower for long books.
 </p>
-<h3>Summary Statistics</h3>
+<h4>Summary Statistics</h4>
 
 
 <p>
@@ -160,7 +147,7 @@ The dataset was read in Python using the pandas package for analysis. Before pro
 
 <table>
   <tr>
-   <td colspan="3" ><strong>Table 1: Summary statistics for the average rating for our two sample groups: short books (number of book pages &lt; 350) and long books (number of book pages</strong> ≥ <strong>350). </strong>
+   <td colspan="3" ><strong>Table 1: Summary statistics for the average rating for our two sample groups: short books (number of book pages < 350) and long books (number of book pages</strong> ≥ <strong>350). </strong>
    </td>
   </tr>
   <tr>
@@ -176,13 +163,13 @@ The dataset was read in Python using the pandas package for analysis. Before pro
    </td>
    <td>
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
    <td>
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
@@ -192,13 +179,13 @@ The dataset was read in Python using the pandas package for analysis. Before pro
    </td>
    <td>
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
    <td>
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
@@ -208,13 +195,13 @@ The dataset was read in Python using the pandas package for analysis. Before pro
    </td>
    <td>
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
    <td>
 
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
@@ -224,13 +211,13 @@ The dataset was read in Python using the pandas package for analysis. Before pro
    </td>
    <td>
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
    <td>
 
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
@@ -240,13 +227,13 @@ The dataset was read in Python using the pandas package for analysis. Before pro
    </td>
    <td>
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
    <td>
 
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
@@ -256,13 +243,13 @@ The dataset was read in Python using the pandas package for analysis. Before pro
    </td>
    <td>
 
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
    <td>
 
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
    </td>
@@ -273,10 +260,10 @@ The dataset was read in Python using the pandas package for analysis. Before pro
 <p>
 
 
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
@@ -285,20 +272,20 @@ The dataset was read in Python using the pandas package for analysis. Before pro
 <p>
 
 
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
-<strong>Figure 2.</strong> Histogram for short books (book length &lt; 350 pages)
+<strong>Figure 2.</strong> Histogram for short books (book length < 350 pages)
 </p>
-<h3>Conditions for Inference</h3>
+<h4>Conditions for Inference</h4>
 
 
 <p>
-Since I am estimating the standard error using the sample standard deviation, I choose to use the t-distribution. The t-distribution is more robust to the effects of small sample sizes (for n&lt;30) and when the population standard deviation is unknown. 
+Since I am estimating the standard error using the sample standard deviation, I choose to use the t-distribution. The t-distribution is more robust to the effects of small sample sizes (for n<30) and when the population standard deviation is unknown. 
 </p>
 <p>
 The conditions to satisfy the usage of t-distribution for inference are:
@@ -315,33 +302,46 @@ The conditions to satisfy the usage of t-distribution for inference are:
 <p>
 While my sample size is greater than 30, the population standard deviation is unknown, and an approximately normal distribution is seen. Therefore, I use the t-distribution as my sampling distribution because it allows us to make more accurate inferences about the population mean.<sup id="fnref4"><a href="#fn4" rel="footnote">4</a></sup>
 </p>
-<h3>Difference of Means Test</h3>
+<h4>Difference of Means Test</h4>
 
 
 <p>
 To assess statistical significance, I compute the T-score to see if the difference in means between the two groups is statistically significant. To do so, I first compute the T-score using the usual formula for a difference of means test, where 
 
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
  is the standard error of the difference between the means. 
 </p>
 <p>
 
 
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 </p>
 <p>
 I take a conservative estimate for the degrees of freedom of the t-distribution, where 
 
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
  and 
 
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
  are the sizes of the two groups. 
+</p>
+<p>
+
+
+<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+</p>
+<p>
+The T-score of 3.49 means that the difference in means is 3.49 standard errors away from zero, resulting in a one-tailed p-value of 0.0004 < 0.05. This p-value represents the probability that the difference in means between the two groups would be this large or larger if there were no actual differences between the groups.<sup id="fnref5"><a href="#fn5" rel="footnote">5</a></sup> Thus, I conclude that the data favors the alternative hypothesis that there is a significant difference in means between the two groups.
+</p>
+<p>
+To assess practical significance, I need a measure of effect size. Here, I choose Hedge’s g because it is a standardized measure that can be compared across different studies. Computing Hedge’s g requires the pooled standard deviation,
 </p>
 <p>
 
@@ -351,30 +351,17 @@ I take a conservative estimate for the degrees of freedom of the t-distribution,
 
 </p>
 <p>
-The T-score of 3.49 means that the difference in means is 3.49 standard errors away from zero, resulting in a one-tailed p-value of 0.0004 &lt; 0.05. This p-value represents the probability that the difference in means between the two groups would be this large or larger if there were no actual differences between the groups.<sup id="fnref5"><a href="#fn5" rel="footnote">5</a></sup> Thus, I conclude that the data favors the alternative hypothesis that there is a significant difference in means between the two groups.
-</p>
-<p>
-To assess practical significance, I need a measure of effect size. Here, I choose Hedge’s g because it is a standardized measure that can be compared across different studies. Computing Hedge’s g requires the pooled standard deviation,
-</p>
-<p>
-
+…where 
 
 <p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-</p>
-<p>
-…where 
+ and 
 
 <p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
- and 
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
  are the standard deviations of the two groups. The calculation of g produces an effect size of 0.466. Thus, I can say that the effect size is moderate, indicating that the difference in means between the two groups is not just statistically significant but also practically significant. In the context of the average book ratings, the difference in means is of moderate practical importance.<sup id="fnref6"><a href="#fn6" rel="footnote">6</a></sup>
 </p>
-<h3>Confidence Intervals</h3>
+<h4>Confidence Intervals</h4>
 
 
 <p>
@@ -386,40 +373,40 @@ To compute the confidence interval for the mean book average rating of each grou
 <p>
 
 
+<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+
 <p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 ]
 </p>
 <p>
 …where 
 
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 is the confidence interval, mean is the sample mean, 
 
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
  is the z-score for the chosen confidence level, and 
 
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 is the standard error of the mean. The z-score for a 95% confidence interval is 1.96. I compute the standard error using the following:
 </p>
 <p>
 
 
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 </p>
 <p>
 …where 
 
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 is the sample standard deviation and n is the sample size. The full calculation can be found in Appendix C.<sup id="fnref7"><a href="#fn7" rel="footnote">7</a></sup> The resulting 95% confidence intervals for each group, rounded to two decimal places, are:
 </p>
@@ -433,7 +420,7 @@ is the sample standard deviation and n is the sample size. The full calculation 
 <p>
 For each interval, I can be 95% confident that the true population mean lies within the interval. This means that I am 95% confident that the mean book average rating for short books is between 3.19 and 4.60, and for long books is between 3.13 and 4.92. The fact that the two intervals overlap means that they are not statistically significant.
 </p>
-<h2>RESULTS AND CONCLUSIONS</h2>
+<h3>RESULTS AND CONCLUSIONS</h3>
 
 
 <p>
@@ -445,10 +432,10 @@ These conclusions are inductive because they are based on a population sample an
 <p>
 In summary, I have shown that there is a significant difference in average book ratings between long books and short books on Goodreads. To further investigate this matter, one should follow up by conducting a more comprehensive and rigorous study, conducting more tests to mitigate the limitations, which would allow one to more confidently and accurately conclude whether there is a significant difference in average book ratings between long books and short books in Goodreads.
 </p>
-<h2></h2>
+<h3></h3>
 
 
-<h2>REFERENCES</h2>
+<h3>REFERENCES</h3>
 
 
 <p>
@@ -459,7 +446,7 @@ In summary, I have shown that there is a significant difference in average book 
 
     Greenland, S., Senn, S. J., Rothman, K. J., Carlin, J. B., Poole, C., Goodman, S. N., & Altman, D. G. (2016). Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations. <em>European Journal of Epidemiology</em>, <em>31</em>(4), 337–350. <a href="https://doi.org/10.1007/s10654-016-0149-3">https://doi.org/10.1007/s10654-016-0149-3</a>
 </p>
-<h2>REFLECTION</h2>
+<h3>REFLECTION</h3>
 
 
 <p>
@@ -468,15 +455,24 @@ To determine the soundness of the statistical analysis, the assumptions of the s
 <p>
 I appreciate Prof. Stan's class instructions and the feedback from Class Assessments in Forum, which helped me better understand the overall Unit on Probability and Statistics. I also thank Dilnaz, CS peer tutor, for her help with my hypothesis and other classmates (Godson, George, and Salome), whom I had discussions with regarding the issue of the confidence interval and p-value mismatch. 
 </p>
-<h2>APPENDIX</h2>
+<h3>APPENDIX</h3>
 
 
 <p>
 The full Jupyter notebook file and the data can be accessed in the zipped folder submitted as a secondary file. This project can also be found at my <a href="https://github.com/elbionredenica/statisticalinference_goodreads">GitHub repository</a>.<sup id="fnref10"><a href="#fn10" rel="footnote">10</a></sup>
 </p>
-<h3>Appendix A: Import, Analyze, and Visualize Data</h3>
+<h4>Appendix A: Import, Analyze, and Visualize Data</h4>
 
 
+<p>
+
+
+<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+
+</p>
 <p>
 
 
@@ -549,6 +545,9 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <img src="images/image11.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
+<h4>Appendix B: Examining the Subgroups</h4>
+
+
 <p>
 
 
@@ -558,9 +557,6 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <img src="images/image12.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
-<h3>Appendix B: Examining the Subgroups</h3>
-
-
 <p>
 
 
@@ -587,14 +583,17 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 
 <img src="images/image15.png" width="" alt="alt_text" title="image_tooltip">
 
-</p>
-<p>
-
 
 <p id="gdcalert45" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert46">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 <img src="images/image16.png" width="" alt="alt_text" title="image_tooltip">
+
+</p>
+<h4>Appendix C: Difference of Means Test</h4>
+
+
+<p>
 
 
 <p id="gdcalert46" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert47">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
@@ -603,9 +602,6 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <img src="images/image17.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
-<h3>Appendix C: Difference of Means Test</h3>
-
-
 <p>
 
 
@@ -615,6 +611,9 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <img src="images/image18.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
+<h4>Appendix D: Confidence Interval</h4>
+
+
 <p>
 
 
@@ -624,9 +623,6 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <img src="images/image19.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
-<h3>Appendix D: Confidence Interval</h3>
-
-
 <p>
 
 
@@ -634,15 +630,6 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 
 
 <img src="images/image20.png" width="" alt="alt_text" title="image_tooltip">
-
-</p>
-<p>
-
-
-<p id="gdcalert50" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert51">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image21.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 
