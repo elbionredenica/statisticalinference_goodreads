@@ -104,7 +104,7 @@ An analysis was conducted in CS50: Formal Analysis's "Assignment 2: Describing D
 </p>
 <h3>DATASET</h3>
 
-$$H_{0}:\mu _{longBooks ratings}=\mu shortBooks raings$$
+
 <p>
 Kaggle, a website that offers a range of tools and resources for data scientists and serves as a public data platform, offers a <a href="https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks">dataset</a> of over 10,000 titles from Goodreads. This paper works with a sample of 200 titles from that dataset, the same used for the previous assignment, which can be found <a href="https://drive.google.com/drive/folders/1_gBg5oGivKhjNFgrbIoHogKeQHVtPdFs">here</a>. Since this paper focuses on whether long books are associated with low average ratings, two variables are most relevant for the analysis. Book length ("num_pages") is used as the independent variable and is a quantitative discrete variable whose input is whole, concrete numbers for the book pages (e.g., there cannot be 346.2 pages in a book). The dependent variable is the average rating in Goodreads (<code>"average_rating"</code>). This variable is measured by taking the values of all ratings and dividing them by the number of them to find the average rating for each book. We will treat "average_rating" as a quantitative discrete variable because it has a limited scope of valid values (0.00-5.00 with two decimals). If we were to count all these values, we would spend a finite amount of time doing so since we have specific values a user can type in as a set of rational numbers. A good analogy with book ratings is GPA, where the latter is also considered a discrete variable.<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> 
 </p>
@@ -120,16 +120,11 @@ A difference of means significance test is performed to address the research que
 <ul>
 
 <li>
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-
+$$H_{0}:\mu _{longBooks ratings}=\mu _{shortBooks raings}$$
+</li>
+   
 <li>
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
- 
+$$H_{0}:\mu _{longBooks ratings}<\mu _{shortBooks raings}$$
 </li>
 </ul>
 <p>
