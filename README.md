@@ -119,13 +119,13 @@ A difference of means significance test is performed to address the research que
 </p>
 <ul>
 
-<li>
+
 $$H_{0}:\mu _{longBooks ratings}=\mu _{shortBooks raings}$$
-</li>
+
    
-<li>
-$$H_{0}:\mu _{longBooks ratings}<\mu _{shortBooks raings}$$
-</li>
+
+$$H_{A}:\mu _{longBooks ratings}<\mu _{shortBooks raings}$$
+
 </ul>
 <p>
 This is a one-tailed test because I am looking for a difference in the negative direction as I claim the average rating is lower for long books.
