@@ -153,10 +153,7 @@ plt.show()
 <p>
 
 
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="img/figure.png" width="" alt="alt_text" title="image_tooltip">
+<img src="[img/figure.png](https://i.imgur.com/BWvS4AM.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
