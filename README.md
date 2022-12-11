@@ -1,90 +1,3 @@
-<!-- Output copied to clipboard! -->
-
-<!-----
-NEW: Check the "Suppress top comment" option to remove this info from the output.
-
-Conversion time: 3.079 seconds.
-
-
-Using this HTML file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* HTML and Markdown from Docs version 1.0
-* Sun Dec 11 2022 22:03:22 GMT-0000 (UTC)
-* Source doc: cs50_statisticalinference_assignment
-
-WARNING:
-You have some equations: look for ">>>>>  gd2md-html alert:  equation..." in output.
-
-* Tables are currently converted to HTML tables.
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
-* Footnote support in HTML is alpha: please check your footnotes.
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 49.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
-<a href="#gdcalert16">alert16</a>
-<a href="#gdcalert17">alert17</a>
-<a href="#gdcalert18">alert18</a>
-<a href="#gdcalert19">alert19</a>
-<a href="#gdcalert20">alert20</a>
-<a href="#gdcalert21">alert21</a>
-<a href="#gdcalert22">alert22</a>
-<a href="#gdcalert23">alert23</a>
-<a href="#gdcalert24">alert24</a>
-<a href="#gdcalert25">alert25</a>
-<a href="#gdcalert26">alert26</a>
-<a href="#gdcalert27">alert27</a>
-<a href="#gdcalert28">alert28</a>
-<a href="#gdcalert29">alert29</a>
-<a href="#gdcalert30">alert30</a>
-<a href="#gdcalert31">alert31</a>
-<a href="#gdcalert32">alert32</a>
-<a href="#gdcalert33">alert33</a>
-<a href="#gdcalert34">alert34</a>
-<a href="#gdcalert35">alert35</a>
-<a href="#gdcalert36">alert36</a>
-<a href="#gdcalert37">alert37</a>
-<a href="#gdcalert38">alert38</a>
-<a href="#gdcalert39">alert39</a>
-<a href="#gdcalert40">alert40</a>
-<a href="#gdcalert41">alert41</a>
-<a href="#gdcalert42">alert42</a>
-<a href="#gdcalert43">alert43</a>
-<a href="#gdcalert44">alert44</a>
-<a href="#gdcalert45">alert45</a>
-<a href="#gdcalert46">alert46</a>
-<a href="#gdcalert47">alert47</a>
-<a href="#gdcalert48">alert48</a>
-<a href="#gdcalert49">alert49</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
 <h2>INFERENTIAL STATISTICS REPORT REGARDING GOODREADS USERS</h2>
 
 
@@ -157,10 +70,7 @@ The dataset was read in Python using the pandas package for analysis. Before pro
    <td>Count
    </td>
    <td>
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
+$$n_{1}=120$$
    </td>
    <td>
 
