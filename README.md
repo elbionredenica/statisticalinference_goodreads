@@ -122,7 +122,10 @@ A difference of means significance test is performed to address the research que
 
 <li>
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+
+H_{0}:\mu _{longBooks ratings}=\mu _{shortBooks ratings}
 
 
 <img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
