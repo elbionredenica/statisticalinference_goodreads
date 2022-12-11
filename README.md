@@ -300,7 +300,7 @@ I appreciate Prof. Stan's class instructions and the feedback from Class Assessm
 
 
 <p>
-The full Jupyter notebook file and the data can be accessed in the zipped folder submitted as a secondary file. This project can also be found at my <a href="https://github.com/elbionredenica/statisticalinference_goodreads">GitHub repository</a>.<sup id="fnref10"><a href="#fn10" rel="footnote">10</a></sup>
+The full Jupyter notebook file and the data can be accessed in the zipped folder submitted as a secondary file. This project as a PDF <a href="https://drive.google.com/file/d/1JgF6YSZ_2Qi8_DC38X_zLm53jsqvj1NW/view?usp=share_link">GitHub repository</a>.<sup id="fnref10"><a href="#fn10" rel="footnote">10</a></sup>
 </p>
 <h4>Appendix A: Import, Analyze, and Visualize Data</h4>
 
