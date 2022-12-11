@@ -130,12 +130,20 @@ $$1.02$$
 
 
 <p>
+<code>
+# using numpy's np.array() to create an array and plot it in a histogram
+# # average ratings for books >= 350
+# # dataAboveThreshold.average_rating, dataAboveThreshold.num_pages
+averageRatingsAboveThreshold = np.array(dataAboveThreshold.average_rating)
+plt.hist(averageRatingsAboveThreshold, bins, facecolor='r', alpha=0.7, edgecolor='k', linewidth=0)
+plt.xlabel("Average Rating")
+plt.ylabel("Frequency")
+plt.xticks(bins[::1]) 
+plt.xticks(rotation = 45)
+plt.show()   
+</code>
 
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="https://i.imgur.com/U15tVXC.png" width="" alt="alt_text" title="image_tooltip">
+<center><img src="https://i.imgur.com/lPy3pE0.png" width="" alt="alt_text" title="image_tooltip"></center>
 
 </p>
 <p>
