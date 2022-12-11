@@ -301,15 +301,11 @@ While my sample size is greater than 30, the population standard deviation is un
 
 
 <p>
-To assess statistical significance, I compute the T-score to see if the difference in means between the two groups is statistically significant. To do so, I first compute the T-score using the usual formula for a difference of means test, where 
-
-$$SE$$
-
- is the standard error of the difference between the means. 
+To assess statistical significance, I compute the T-score to see if the difference in means between the two groups is statistically significant. To do so, I first compute the T-score using the usual formula for a difference of means test, where $$SE$$ is the standard error of the difference between the means. 
 </p>
 <p>
 
-$$T=\dfrac{\mu _{LongBooks}-\mu _{shortBo\cdot ks}}{SE}$$
+$$T=\dfrac{\mu _{longBooks ratings}-\mu _{shortBooks ratings}}{SE}$$
 
 
 </p>
