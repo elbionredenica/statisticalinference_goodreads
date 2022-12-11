@@ -263,7 +263,7 @@ The dataset was read in Python using the pandas package for analysis. Before pro
 <p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="img/figure1.png" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/U15tVXC.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
