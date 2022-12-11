@@ -412,7 +412,7 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934978-f3a1d734-b0ac-4764-939b-739cca8423e9.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="![image](https://user-images.githubusercontent.com/70096146/206935132-53e5053f-0698-4e47-9ee5-f0aceef53496.png)" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 
