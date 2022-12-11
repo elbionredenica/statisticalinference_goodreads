@@ -120,11 +120,11 @@ A difference of means significance test is performed to address the research que
 <ul>
 
 
-$$H_{0}:\mu _{longBooks ratings}=\mu _{shortBooks raings}$$
+$$H_{0}:\mu _{longBooks ratings}=\mu _{shortBooks ratings}$$
 
    
 
-$$H_{A}:\mu _{longBooks ratings}<\mu _{shortBooks raings}$$
+$$H_{A}:\mu _{longBooks ratings}<\mu _{shortBooks ratings}$$
 
 </ul>
 <p>
@@ -303,14 +303,13 @@ While my sample size is greater than 30, the population standard deviation is un
 <p>
 To assess statistical significance, I compute the T-score to see if the difference in means between the two groups is statistically significant. To do so, I first compute the T-score using the usual formula for a difference of means test, where 
 
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+$$SE$$
 
  is the standard error of the difference between the means. 
 </p>
 <p>
 
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+$$T=\dfrac{\mu _{LongBooks}-\mu _{shortBo\cdot ks}}{SE}$$
 
 
 </p>
