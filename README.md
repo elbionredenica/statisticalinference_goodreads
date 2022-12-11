@@ -208,21 +208,11 @@ $$T=\dfrac{\mu _{longBooks ratings}-\mu _{shortBooks ratings}}{SE}$$
 
 </p>
 <p>
-I take a conservative estimate for the degrees of freedom of the t-distribution, where 
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
- and 
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
- are the sizes of the two groups. 
+I take a conservative estimate for the degrees of freedom of the t-distribution, where n1 and n2 are the sizes of the two groups. 
 </p>
 <p>
 
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+$$df=\min \left( n_{1},n_{2}\right) -1$$
 
 </p>
 <p>
@@ -233,20 +223,10 @@ To assess practical significance, I need a measure of effect size. Here, I choos
 </p>
 <p>
 
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
+$$s_{pooled}=\sqrt{\dfrac{\left( n_{1}-1\right) s_{1}^{2}+\left( n_{2}-1\right) s_{2}^{2}}{n_{1}+n_{2}-2}}$$
 </p>
 <p>
-…where 
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
- and 
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+…where S1 and S2
  are the standard deviations of the two groups. The calculation of g produces an effect size of 0.466. Thus, I can say that the effect size is moderate, indicating that the difference in means between the two groups is not just statistically significant but also practically significant. In the context of the average book ratings, the difference in means is of moderate practical importance.<sup id="fnref6"><a href="#fn6" rel="footnote">6</a></sup>
 </p>
 <h4>Confidence Intervals</h4>
@@ -259,44 +239,17 @@ I continue examining the hypotheses by constructing a confidence interval for ea
 To compute the confidence interval for the mean book average rating of each group, I use the following:
 </p>
 <p>
-
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-]
+$$CI=\left[ \mu -z\times SE,\mu +z\times SE\right] $$
 </p>
 <p>
-…where 
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-is the confidence interval, mean is the sample mean, 
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
- is the z-score for the chosen confidence level, and 
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-is the standard error of the mean. The z-score for a 95% confidence interval is 1.96. I compute the standard error using the following:
+…where CI is the confidence interval, mean is the sample mean, z is the z-score for the chosen confidence level, and SE is the standard error of the mean. The z-score for a 95% confidence interval is 1.96. I compute the standard error using the following:
 </p>
 <p>
 
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
+$$SE=\dfrac{s}{\sqrt{n}}$$
 </p>
 <p>
-…where 
-
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-is the sample standard deviation and n is the sample size. The full calculation can be found in Appendix C.<sup id="fnref7"><a href="#fn7" rel="footnote">7</a></sup> The resulting 95% confidence intervals for each group, rounded to two decimal places, are:
+…where s is the sample standard deviation and n is the sample size. The full calculation can be found in Appendix C.<sup id="fnref7"><a href="#fn7" rel="footnote">7</a></sup> The resulting 95% confidence intervals for each group, rounded to two decimal places, are:
 </p>
 <ul>
 
