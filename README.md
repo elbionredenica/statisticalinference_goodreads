@@ -145,6 +145,12 @@ plt.show()
 ```
 
 <center><img src="https://i.imgur.com/lPy3pE0.png" width="" alt="alt_text" title="image_tooltip"></center>
+   
+</p>
+<p>
+<strong>Figure 1.</strong> Histogram for long books (book length ≥ 350 pages)
+</p>
+<p>
 
 ```
 # # average ratings for with book < 350 pages 
@@ -159,11 +165,7 @@ plt.show()
 
 ```                                       
    
-</p>
-<p>
-<strong>Figure 1.</strong> Histogram for long books (book length ≥ 350 pages)
-</p>
-<p>
+
 
 
 <img src="https://i.imgur.com/BWvS4AM.png" width="" alt="alt_text" title="image_tooltip">
