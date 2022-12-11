@@ -312,46 +312,46 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934737-b03349ef-92c2-4cc8-a2b7-f6cbab53104b.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/jESeOID.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934762-e4de60a9-bb14-41d1-b53d-1a3affaebe7a.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/Gbpl3z1.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934779-3f39ee2a-1e73-4be3-ae20-6df76e4dc50b.png)" width="" alt="alt_text" title="image_tooltip">
-
-</p>
-<p>
-
-
-
-
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934800-47774333-3b83-4219-b5b7-c89c679fcfdd.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/X3DibOY.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934810-e95a0776-858f-4b37-89db-7f27d9ae4a10.png)" width="" alt="alt_text" title="image_tooltip">
+
+
+<img src="https://i.imgur.com/U5IpVh9.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934824-9da3bccf-7d07-42a7-ba15-b96acde23b14.png)" width="" alt="alt_text" title="image_tooltip">
+
+<img src="https://i.imgur.com/KK3kaQX.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934840-fb150102-199e-4424-af9e-fd3b0dbdbca1.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/rre9VSb.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934852-6e3af691-7ef7-4889-89e6-820f847561ee.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/EPnQRI3.png" width="" alt="alt_text" title="image_tooltip">
+
+</p>
+<p>
+
+<img src="https://i.imgur.com/sDfQuXg.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <h4>Appendix B: Examining the Subgroups</h4>
@@ -360,29 +360,29 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <p>
 
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934862-d7e964dd-92b0-42ff-8d32-6db08017e5e7.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/iyNAkeo.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934874-4c437282-c1dc-4b92-9b1e-9ed15e9a55a9.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/dY1cRdM.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934894-4e7437db-0039-42a4-a161-be5f838c96fb.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/owrbzuW.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934915-95a34c9a-049f-43f0-9fc2-6d8aad5f1082.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/U6LcqfE.png" width="" alt="alt_text" title="image_tooltip">
 
 
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934930-29790538-4972-4bd7-8d79-8b31c3eefeb2.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/YIqnlXA.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <h4>Appendix C: Difference of Means Test</h4>
@@ -392,13 +392,13 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 
 
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934940-ac5f5ab0-3ed6-4040-bb05-33ee1541d881.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/FzgMomb.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934948-db070922-dcce-4c69-a0f4-25a886bd2072.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/0geirkl.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <h4>Appendix D: Confidence Interval</h4>
@@ -407,12 +407,12 @@ The full Jupyter notebook file and the data can be accessed in the zipped folder
 <p>
 
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206934962-7d2d430a-3b05-4093-9a24-214f6a3c6edc.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/ldW4RRa.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
 
-<img src="![image](https://user-images.githubusercontent.com/70096146/206935132-53e5053f-0698-4e47-9ee5-f0aceef53496.png)" width="" alt="alt_text" title="image_tooltip">
+<img src="https://i.imgur.com/UL0R6Pc.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 
